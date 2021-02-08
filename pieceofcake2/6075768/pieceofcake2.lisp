@@ -1,0 +1,1 @@
+(write ((lambda (n h v) (* 4 (max h (abs (- n h))) (max v (abs (- n v))))) (read) (read) (read)))

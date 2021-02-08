@@ -1,0 +1,1 @@
+[print((int(input()) + 399) // 400) for _ in range(int(input()))]

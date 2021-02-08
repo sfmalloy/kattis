@@ -1,0 +1,1 @@
+print(int((1 / int(input()) * sum((lambda w, l: w * l)(*tuple(map(int, input().split()))) for _ in range(int(input()))))))

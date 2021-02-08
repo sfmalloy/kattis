@@ -1,0 +1,1 @@
+print((lambda a, b: (a * b) - a + 1) (*tuple(map(int, input().split()))))
