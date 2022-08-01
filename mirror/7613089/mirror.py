@@ -1,0 +1,1 @@
+[(lambda: print('Test '+str(t+1)+'\n'+(lambda R,C:'\n'.join([''.join(r) for r in (lambda l: zip(*[l[c][::-1] for c in range(C)]))(list(zip(*[list(map(str, input()))[::-1] for _ in range(R)])))]))(*map(int, input().split()))))() for t in range(int(input()))]
